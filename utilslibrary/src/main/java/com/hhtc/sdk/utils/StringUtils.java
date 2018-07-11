@@ -1,9 +1,6 @@
 package com.hhtc.sdk.utils;
 
 import android.text.TextUtils;
-
-import com.carlrocks.http.okhttp.NetRequestParameters;
-
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.text.DecimalFormat;
