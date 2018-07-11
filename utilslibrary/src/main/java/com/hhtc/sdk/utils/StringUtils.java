@@ -15,22 +15,6 @@ import java.text.DecimalFormat;
 
 public class StringUtils {
 
-
-    /**
-     * 获取支付参数
-     * @param mdata
-     */
-    public static NetRequestParameters getParameter(String mdata) {
-        String[] data = mdata.split("&");
-        NetRequestParameters requestParameters = new NetRequestParameters();
-        for (int i = 0; i < data.length; i++) {
-            String[] payData = data[i].split("=");
-            requestParameters.put(payData[0], payData[1]);
-        }
-        return requestParameters;
-    }
-
-
     /**
      * 比较大小
      *
